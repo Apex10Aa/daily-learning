@@ -1,1 +1,2 @@
 today i learnt about File-based routing — a file at app/blog/page.tsx automatically becomes the route /blog, no router config needed.
+Server Components vs Client Components — by default, Next.js components render on the server (no JS shipped to the browser); adding "use client" opts a component into interactivity, running in the browser like classic React.
