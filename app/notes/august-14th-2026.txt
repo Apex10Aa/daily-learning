@@ -3,3 +3,4 @@ Server Components vs Client Components — by default, Next.js components render
 Data fetching in Server Components — you can await a fetch directly inside a component instead of using useEffect + useState.
 layout.tsx — shared UI (nav bars, sidebars) that wraps multiple pages without re-rendering on navigation.
 Dynamic routes — [id] folders that map URL segments to props, e.g. app/posts/[id]/page.tsx.
+Loading and error states — loading.tsx and error.tsx files that Next.js automatically shows during data fetching or on a thrown error.
