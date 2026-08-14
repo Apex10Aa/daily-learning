@@ -2,3 +2,4 @@ today i learnt about File-based routing — a file at app/blog/page.tsx automati
 Server Components vs Client Components — by default, Next.js components render on the server (no JS shipped to the browser); adding "use client" opts a component into interactivity, running in the browser like classic React.
 Data fetching in Server Components — you can await a fetch directly inside a component instead of using useEffect + useState.
 layout.tsx — shared UI (nav bars, sidebars) that wraps multiple pages without re-rendering on navigation.
+Dynamic routes — [id] folders that map URL segments to props, e.g. app/posts/[id]/page.tsx.
